@@ -8,7 +8,7 @@
 
 /* Common Style */
 .container {
-  max-width: 1200px;
+  max-width: 1280px;
   margin: auto;
 }
 
@@ -152,4 +152,105 @@
   color: #575757;
   font-size: 0.875rem;
   font-weight: normal;
+}
+
+/* Pricing Section */
+.pricing-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 5rem;
+}
+
+.pricing-chart {
+  width: 24rem;
+  height: 28rem;
+  display: grid;
+  gap: 1.25rem;
+  padding: 2rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  background-color: #f8f9fb;
+}
+
+.pricing-chart hr {
+  background-color: #e5e7eb;
+  border: none;
+  width: 100%;
+  height: 1px;
+}
+
+.pricing-section-heading {
+  text-align: center;
+  color: #0d1b2a;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.pricing-section-description {
+  text-align: center;
+  color: #575757;
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0.75rem auto 3rem;
+}
+
+.plan-info p {
+  font-size: 0.813rem;
+  font-weight: 400;
+  color: #888888;
+}
+
+.price {
+  font-size: 2.75rem;
+  font-weight: bold;
+  color: #0d1b2a;
+}
+
+.feature ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  list-style-position: inside;
+  font-size: 0.875rem;
+  font-weight: normal;
+  color: #333333;
+}
+
+.feature ul li::marker {
+  color: #2563eb;
+  font-size: 0.875rem;
+}
+
+#standard-plan-btn {
+  background-color: #f8f9fb;
+  color: #2563eb;
+  border: 1px solid #2563eb;
+  font-weight: 600;
+}
+
+#team-plan-btn {
+  background-color: #f8f9fb;
+  color: #0d1b2a;
+  border: 1px solid #0d1b2a;
+  font-weight: 600;
+}
+
+#highlight-chart {
+  background-color: #0d1b2a;
+}
+
+#highlight-plan {
+  color: #93c5fd;
+}
+
+#highlight-price {
+  font-size: 2.75rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+#highlight-feature ul li {
+  color: #ffffff;
 }
