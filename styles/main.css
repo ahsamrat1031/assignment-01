@@ -101,3 +101,55 @@
   font-weight: bold;
   font-size: 1.5rem;
 }
+
+/* Speakers Section */
+.speakers-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  gap: 2rem;
+  margin-bottom: 8.5rem;
+}
+
+.speakers h2 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #000102;
+  text-align: center;
+  margin: 5rem auto 3.5rem;
+}
+
+.speakers-card {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+
+.speakers-card img {
+  width: 100%;
+  display: block;
+}
+
+.speaker-info {
+  margin: 3.125rem 1.5rem;
+}
+
+.speaker-info h4 {
+  color: #0d1b2a;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 0.5rem auto;
+}
+
+.speaker-info .category {
+  color: #2563eb;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.speaker-info .position {
+  color: #575757;
+  font-size: 0.875rem;
+  font-weight: normal;
+}
