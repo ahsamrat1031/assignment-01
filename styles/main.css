@@ -60,12 +60,12 @@
 /* Hero Section */
 .hero-section {
   background-image:
+    linear-gradient(to right, rgba(0, 0, 0, 0.6) 30%, rgba(0, 0, 0, 0) 70%),
     linear-gradient(
       to bottom left,
       rgba(0, 0, 0, 0) 42%,
-      rgba(0, 0, 0, 8.8) 87%
+      rgba(0, 0, 0, 0.8) 87%
     ),
-    linear-gradient(to right, rgba(0, 0, 0, 6) 30%, rgba(0, 0, 0, 0) 70%),
     url("../assets/banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
