@@ -171,7 +171,8 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 1.5rem;
-  margin-bottom: 5rem;
+  margin: 2rem auto 7rem;
+  padding-bottom: 5rem;
 }
 
 .pricing-chart {
@@ -255,7 +256,8 @@
   color: #ffffff;
 }
 
-#pro-plan-btn:hover {
+#pro-plan-btn:hover,
+#schedule-btn:hover {
   background-color: #e5e7eb;
   color: #000000;
   font-weight: bold;
@@ -277,6 +279,127 @@
 
 #highlight-feature ul li {
   color: #ffffff;
+}
+
+/* Venue Section */
+.venue-heading {
+  text-align: center;
+  color: #0d1b2a;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.venue-description {
+  text-align: center;
+  color: #575757;
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0.75rem auto 3rem;
+}
+
+.venue {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.venue-image-container {
+  flex: 1;
+}
+
+.venue-image-container img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.venue-info {
+  flex: 1;
+  text-align: center;
+}
+
+.venue-info h4 {
+  color: #0d1b2a;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.info-list {
+  display: inline-block;
+  text-align: left;
+  list-style: none;
+  margin-top: 0.8rem;
+}
+
+.info-list li {
+  color: #575757;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.info-list li a {
+  text-decoration: none;
+  color: #0044ff;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+#schedule-btn {
+  padding: 0.75rem;
+  margin-top: 2rem;
+  min-width: 6rem;
+  min-height: 0.8rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.venue-feature {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin: 2rem auto;
+}
+
+.feature-card {
+  background-color: #ffffff;
+  padding: 0.75rem 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+}
+
+.feature-card h4 {
+  color: #0d1b2a;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0.5rem auto;
+}
+
+.feature-card p {
+  color: #575757;
+  font-size: 0.875rem;
+  font-weight: normal;
+}
+
+.feature-card i {
+  font-size: 2rem;
+  color: #0d1b2a;
+}
+
+.quote-container {
+  margin: 4rem;
+  padding: 3rem;
+}
+
+.quote {
+  text-align: center;
+  color: #0d1b2a;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.quote span {
+  background-color: rgb(255, 225, 0);
+  padding: 0.3rem;
+  border-radius: 0.5rem;
 }
 
 /* Footer Section */
